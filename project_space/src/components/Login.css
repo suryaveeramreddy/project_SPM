@@ -1,0 +1,11 @@
+ .Login{
+    background-image:  url("https://www.yudiz.com/codepen/animation-form/banner.jpg");
+    background-size: cover;
+       background-position: center;
+       height:100vh;
+     }
+     .pass_text:hover{
+          color:blue;
+           transition: 1s;
+     }
+   

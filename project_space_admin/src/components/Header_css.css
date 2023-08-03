@@ -1,0 +1,319 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');*/
+
+.header {
+    display: flex;
+
+    background-color: #0E0E52; 
+    height:60px;
+    padding:10px;
+
+} 
+.header img
+{
+    height:50px;
+}
+.head_row
+{
+    width:90%;
+}
+
+ /* @media only screen and (max-width:426px) {
+    .header {
+        width: 100vw;
+
+    }
+
+
+    .header_title {
+        margin-left: 20px;
+        float: left;
+    }
+
+
+
+} */
+
+/*@media only screen and (max-width:1025px) and (min-width:770px) {
+    .header {
+        align-items: center;
+    }
+
+    .header .header_title {
+        text-align: center;
+        margin-left: 250px;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .header {
+        align-items: center;
+    }
+
+    .header .header_title {
+        
+        text-align: center;
+        margin-left: 400px;
+    }
+}
+
+
+@media only screen and (max-width:769px) and (min-width:426px) {
+    .header_title {
+        margin-top: 10px;
+        margin-left: 150px;
+        float: left;
+    }
+} */
+
+/* .logo {
+    height: 60px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid white;
+    border-radius: 20%;
+}*/
+
+.header_title {
+    margin-left: 520px;
+    font-size: 25px;
+    color: white;
+    
+}
+/*.welcome_details
+{
+    border:1px solid black;
+    height:370px;
+    width:300px;
+    margin-left:280px;
+    border-radius: 20px;
+}
+.welcome_details h2
+{
+    margin-left:50px;
+}
+.profile_image {
+    height: 300px;
+    width: 300px;
+}
+
+.Cards_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap:10px;
+}
+
+.row {
+    display: flex;
+    gap: 15px;
+}
+
+*/
+.card1 {
+    background-color: #d39e01;
+    color: white;
+    border-radius: 10px;
+    height:100px;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+
+}
+
+.card2 {
+    background-color: #0f7170;
+    color: white;
+    border-radius: 10px;
+    height:100px;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.card3 {
+    background-color: #3ef406;
+    color: white;
+    border-radius: 10px;
+    height:100px;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.card4 {
+    background-color: #8d2f91;
+    color: white;
+    border-radius: 10px;
+    height:100px;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.card1:hover {
+    transition: 1s;
+    transform: scale(0.9);
+    color: rgb(9, 7, 7);
+    box-shadow: 5px 5px rgb(255, 234, 0);
+}
+
+.card2:hover {
+    transition: 1s;
+    transform: scale(0.9);
+    color: yellow;
+    box-shadow: 5px 5px rgb(0, 186, 28);
+}
+
+.card3:hover {
+    transition: 1s;
+    transform: scale(0.9);
+    color: rgb(4, 0, 0);
+    box-shadow: 5px 5px rgb(42, 77, 2);
+}
+
+.card4:hover {
+    transition: 1s;
+    transform: scale(0.9);
+    color: yellow;
+    box-shadow: 5px 5px rgb(251, 3, 242);
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.link::after {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: black;
+}
+
+
+.welcome_text
+{
+    margin-left:50px;
+}
+.profile_div img
+{
+    margin-top:10px;
+    margin-left:120px;
+    height:200px;
+}
+.profile_div p{
+    margin-left:175px;
+}
+.details
+{
+    margin-top:25px;
+}
+.Cards_body
+{
+    margin-top:150px;
+}
+.profile_body
+{
+    margin-top:30px;
+}
+.head_img
+{
+    height:50px;
+}
+.head
+{
+    background-color: rgb(6, 6, 117);
+    width:100vw;
+}
+.head_text
+{
+    color:white;
+    margin-top:10px;
+}
+.welcome_text
+{
+    color:rgb(25, 3, 125);
+    width:10%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    /* margin-left:50px; */
+}
+@media only screen and (max-width:426px) 
+{
+    .head_img{
+        height:40px;
+        width:100px;
+        display:none;
+    }
+    .welcome_text
+    {
+    }
+    .profile_body
+    {
+        margin-top:15px;
+    }
+    .Cards_body
+    {
+        margin-top:10px;
+    }
+    .profile_div img
+    {
+        margin-left:20px;
+    }
+    .profile_div p
+    {
+        margin-left:50px;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768)
+{
+    .head_img{
+        height:40px;
+        width:100px;
+        display:none;
+    }
+}
+@media only screen and (max-width:768px) 
+{
+    .head_img
+    {
+        display:none;
+    }
+}
+.details p
+{
+    margin-top:10px;
+}
+.table_1
+{
+    border:none;
+}
+.table_1 td{
+    padding-left:25px;
+    padding-right:15px;
+}
+.details_card
+{
+    height:300px;
+    background-color: blue;
+    border-radius: 20px;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left:35px;
+}
